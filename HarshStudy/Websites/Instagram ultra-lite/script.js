@@ -7,16 +7,16 @@ let heart = document.querySelector(".heart");
 let card = document.querySelector("#content");
 
 let photos = [
-  { dp: './Assets/images/ImgDp1.jpg', story: './Assets/images/ImgStory1.jpg' },
-  { dp: './Assets/images/ImgDp2.jpg', story: './Assets/images/ImgStory2.jpg' },
-  { dp: './Assets/images/ImgDp3.jpg', story: './Assets/images/ImgStory3.jpg' },
-  { dp: './Assets/images/ImgDp4.jpg', story: './Assets/images/ImgStory4.jpg' },
-  { dp: './Assets/images/ImgDp5.jpg', story: './Assets/images/ImgStory5.jpg' },
-  { dp: './Assets/images/ImgDp6.jpg', story: './Assets/images/ImgStory6.jpg' },
-  { dp: './Assets/images/ImgDp7.jpg', story: './Assets/images/ImgStory7.jpg' },
-  { dp: './Assets/images/ImgDp8.jpg', story: './Assets/images/ImgStory8.jpg' },
-  { dp: './Assets/images/ImgDp9.jpg', story: './Assets/images/ImgStory9.jpg' },
-  { dp:'./Assets/images/ImgDp10.jpg', story: './Assets/images/ImgStory10.jpg'}
+  { dp: './images/ImgDp1.jpg', story: './images/ImgStory1.jpg' },
+  { dp: './images/ImgDp2.jpg', story: './images/ImgStory2.jpg' },
+  { dp: './images/ImgDp3.jpg', story: './images/ImgStory3.jpg' },
+  { dp: './images/ImgDp4.jpg', story: './images/ImgStory4.jpg' },
+  { dp: './images/ImgDp5.jpg', story: './images/ImgStory5.jpg' },
+  { dp: './images/ImgDp6.jpg', story: './images/ImgStory6.jpg' },
+  { dp: './images/ImgDp7.jpg', story: './images/ImgStory7.jpg' },
+  { dp: './images/ImgDp8.jpg', story: './images/ImgStory8.jpg' },
+  { dp: './images/ImgDp9.jpg', story: './images/ImgStory9.jpg' },
+  { dp:'./images/ImgDp10.jpg', story: './images/ImgStory10.jpg'}
 ];
 
 let clutter = "";

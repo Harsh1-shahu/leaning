@@ -1,8 +1,5 @@
 const center = document.querySelector(".center");
 
-const btn = document.querySelector("#throttle");
-
-
 const throttleFunction = (func, delay) => {
     let prev = 0;
     return (...args) => {
