@@ -9,6 +9,7 @@ html, body{
     width: 100%;    
 }
 #main{
+    background-color: black;
     width: 100%;
 }
 .hero{
