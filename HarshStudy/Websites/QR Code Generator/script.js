@@ -5,17 +5,17 @@ const genBtn = document.querySelector("#generate-btn");
 const qrPopup = document.querySelector("#qrPopup");
 const qrImg = document.querySelector("#qrImg");
 const downloadBtn = document.querySelector("#downloadBtn");
-const closeBtn = document.querySelector("closeBtn");
+const closeBtn = document.querySelector("#closeBtn");
 const mainContainer = document.querySelector("#main-con");
 
 genBtn.addEventListener("click", () => {
-    if (inp.value) {
+    if (!inp.value) {
         alert("Enter text or URL first");
     } else {
         const imgUrl = url + inp.value;
         qrImg.setAttribute("src", imgUrl);
         setTimeout(() => {
-            qrImg.classList.add("show");
+            qrPopup.classList.add("show");
             mainContainer.classList.add("opacity");
         }, 1000)
     }

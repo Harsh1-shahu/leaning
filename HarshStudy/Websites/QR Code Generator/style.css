@@ -3,11 +3,10 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Inter', 'sans-serif';
+    font-family: 'Inter', sans-serif;
 }
 
-body{
-    background-color: antiquewhite;
+body {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,24 +21,20 @@ body{
     justify-content: center;
 }
 
-#main-con.opacity {
-    opacity: 0.4;
-}
-
-.sidebar, .home-con{
+.sidebar, .home-con {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.sidebar i{
+.sidebar i {
     font-size: 55px;
     margin-right: 10px;
 }
 
-.sidebar .text-con h1, p {
-    font-family: var(--font);
+.sidebar .text-con h1, 
+.sidebar .text-con p {
     margin-bottom: 5px;
 }
 
@@ -57,7 +52,7 @@ body{
 }
 
 .home h2 {
-    font-family: var(--font);
+    margin-bottom: 10px;
 }
 
 #qr-input {
@@ -68,23 +63,25 @@ body{
     margin: 15px 0 25px;
     padding: 7px;
     font-size: 16px;
-    font-family: var(--font);
 }
 
-#generate-btn, #downloadBtn, #closeBtn {
+#generate-btn, 
+#downloadBtn, 
+#closeBtn {
     height: 25px;
     width: 85%;
     background-color: black;
     color: white;
     border: none;
     border-radius: 5px;
-    font-family: var(--font);
     font-size: 16px;
     cursor: pointer;
     transition: transform 0.3s;
 }
 
-#generate-btn:hover #downloadBtn, #closeBtn {
+#generate-btn:hover, 
+#downloadBtn:hover, 
+#closeBtn:hover {
     transform: scale(1.01);
 }
 
@@ -102,8 +99,8 @@ body{
     align-items: center;
     opacity: 0;
     transform: scale(0);
-    transition: transform 0.5s ease-in-out,
-                opacity 0.5s,
+    transition: transform 0.5s ease-in-out, 
+                opacity 0.5s, 
                 bottom 0.5s ease-in-out;
 }
 
@@ -113,7 +110,7 @@ body{
     bottom: 15%;
 }
 
-#qrImg{
+#qrImg {
     width: 70%;
     border: 8px solid white;
     border-radius: 5px;
@@ -122,7 +119,6 @@ body{
 
 #qrPopup h2 {
     color: white;
-    font-family: var(--font);
 }
 
 #downloadBtn {
@@ -137,4 +133,3 @@ body{
     border: 1px solid white;
     margin: 3px 0;
 }
-
