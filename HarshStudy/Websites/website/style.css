@@ -56,6 +56,9 @@ body {
     text-decoration: none;
     font-size: 18px;
 }
+.menu:hover{
+    text-decoration: underline;
+}
 
 .heading {
     margin-top: 90px;
@@ -118,6 +121,9 @@ body {
     text-transform: uppercase;
     text-decoration: none;
 }
+.herofooter a:hover {
+    text-decoration: underline;
+}
 
 .herofooter .iconset {
     display: flex;
@@ -165,6 +171,9 @@ body {
     font-size: 7.6vw;
     opacity: .7;
 }
+.elem h1:hover {
+    opacity: .2;
+}
 
 .elemlast {
     border-bottom: 1px solid #888;
@@ -201,14 +210,18 @@ body {
 }
 
 .textabout a {
-    padding: 12px 22px;
+    padding: 10px 20px;
     border: 1px solid white;
     border-radius: 100px;
     color: white;
-    font-size: 12px;
+    font-size: 14px;
     text-decoration: none;
 }
-
+.textabout a:hover {
+    background-color: white;
+    color: black;
+}
+   
 #subscribe {
     background-color: black;
     color: white;
@@ -225,6 +238,9 @@ body {
     text-transform: uppercase;
     font-size: 14px;
     margin-top: 10px;
+}
+#subscribe h3:hover {
+    text-decoration: underline;
 }
 
 .footer {
@@ -245,6 +261,9 @@ body {
     display: flex;
     gap: 30px;
 }
+.footerRight a:hover {
+    text-decoration: underline;
+}
 
 .footer a {
     text-transform: uppercase;
@@ -253,3 +272,4 @@ body {
     color: white;
     text-decoration: none;
 }
+
