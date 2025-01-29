@@ -13,7 +13,6 @@ body {
 }
 
 body {
-
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -84,5 +83,30 @@ p {
 
     100% {
         transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-image: url(images/robobg.jpg);
+        background-size: cover;
+        background-position: calc(27%);
+    }
+    .container {
+        width: 80%;
+        left: 10%;
+        padding: 30px;
+    }
+    h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    p {
+        font-size: 16px;
+        text-align: center;
+    }
+    .btn {
+        font-size: 1em;
+        padding: 8px 16px;
     }
 }
