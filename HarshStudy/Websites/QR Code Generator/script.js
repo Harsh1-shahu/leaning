@@ -17,7 +17,7 @@ genBtn.addEventListener("click", () => {
         setTimeout(() => {
             qrPopup.classList.add("show");
             mainContainer.classList.add("opacity");
-        }, 1000)
+        }, 200)
     }
 });
 

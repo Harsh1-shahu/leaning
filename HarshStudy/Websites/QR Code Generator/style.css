@@ -7,6 +7,7 @@
 }
 
 body {
+    background-color: rgba(255, 253, 251, 0.874);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,10 +17,24 @@ body {
 #main-con {
     height: 100vh;
     width: 100vw;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+#main-con::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("https://www.logodesign.net/images/qr/qr-img-3.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    opacity: 0.3; /* Adjust opacity as needed */
+    z-index: -1; /* Keeps it behind the content */
+}
+
 
 .sidebar, .home-con {
     width: 50%;
@@ -99,8 +114,8 @@ body {
     align-items: center;
     opacity: 0;
     transform: scale(0);
-    transition: transform 0.5s ease-in-out, 
-                opacity 0.5s, 
+    transition: transform 0.2s ease-in-out, 
+                opacity 0.1s, 
                 bottom 0.5s ease-in-out;
 }
 
